@@ -16,7 +16,7 @@ void main()
 	Tien.vong_2 = 50;
 	Tien.vong_1 = 90;
 	Linh = &Tien;
-	
+	Tien.vong_3 = 0;
 	printf("%d",Linh->vong_1);
 	printf("\n%d",Linh->vong_2);
 	printf("\n%s",Linh->ten);
